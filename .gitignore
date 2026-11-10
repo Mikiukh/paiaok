@@ -6,3 +6,4 @@
 classes/
 build/
 __pycache__/
+!downloads/Zion.apk

@@ -4,7 +4,7 @@ Versão `0.2.0`. Modificação do APK `Nova_V2_Demo_v2.apk` fornecido para este 
 
 ## Download no Android
 
-Abra [a versão experimental](https://github.com/Mikiukh/paiaok/releases/tag/esp-v0.2.0). Em **Assets**, toque em **Zion.apk**. O repositório é público.
+[Baixar Zion.apk](https://github.com/Mikiukh/paiaok/raw/refs/tags/esp-v0.2.0/downloads/Zion.apk) · [Versão experimental](https://github.com/Mikiukh/paiaok/releases/tag/esp-v0.2.0). O repositório é público. O APK e seu checksum também estão na pasta `downloads/`.
 
 O APK tem uma assinatura de teste diferente da original. O Android pode recusar uma atualização por cima da instalação original. Não remova a instalação existente sem guardar o instalador, dados e credenciais necessários. Não há migração automática de dados.
 
@@ -34,7 +34,7 @@ O filtro usa uma constante de resposta de 18 ms, que acrescenta atraso visual. E
 
 **Não houve instalação em Android nem teste no Free Fire. Não há medição de FPS ou rastreamento em partida.** A autenticação e as verificações de integridade foram mantidas e podem rejeitar uma versão reconstruída. Não foi acrescentado aimbot, root ou bypass de anticheat.
 
-Veja `validation.json` e o `SHA256SUMS` anexado à versão.
+Veja `downloads/validation.json` e `downloads/SHA256SUMS`.
 
 ## Código e reconstrução
 
