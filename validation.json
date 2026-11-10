@@ -1,0 +1,41 @@
+{
+  "version": "0.2.0-experimental",
+  "apk": "Zion.apk",
+  "sha256": "dd87def9ebe1a70c030cd598e8464794644f357418efe6d42df208e1fad400f4",
+  "bytes": 13531277,
+  "original_sha256": "701faec99b61efe8883518569ab4e741c858776b625020e055ebcefa0ac8f54e",
+  "changes": [
+    "Original 80 ms bounded velocity prediction and cached tracer Paint retained",
+    "Native and Java projections use the same bounded, time-based screen filter",
+    "Independent head/foot histories; 200 ms expiration; viewport and camera-jump resets",
+    "Invalid projected floats rejected before drawing",
+    "Cached dark tracer outline for contrast"
+  ],
+  "validation": {
+    "java_filter_checks": 2027,
+    "prediction_instruction_checks": 29,
+    "synthetic_alternating_noise_rms_ratio": 0.417,
+    "changed_original_classes": [
+      "com/mducdz/fakeping/engine/EspEntityStore$Entity.smali",
+      "com/mducdz/fakeping/engine/EspOverlayView.smali"
+    ],
+    "added_classes": [
+      "com/mducdz/fakeping/engine/ZionScreenFilter.smali"
+    ],
+    "changed_original_payload_entries": [
+      "classes3.dex"
+    ],
+    "apk_signatures": "v1,v2,v3 verified",
+    "zip_alignment": "verified",
+    "android_or_game_execution": false,
+    "rebuild_from_published_patch": "byte-identical APK verified"
+  },
+  "limitations": [
+    "Experimental test signature; different from original publisher",
+    "Authentication and integrity checks remain unchanged and can reject a rebuilt APK",
+    "No measured game FPS, device latency or in-game tracking accuracy",
+    "Screen smoothing adds response delay (18 ms time constant)",
+    "Requires the original APK to already supply valid entity and camera data",
+    "No new aimbot, packet parser, root privilege or anti-cheat bypass"
+  ]
+}
